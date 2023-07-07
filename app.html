@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GitHub File Updater</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>GitHub File Updater</h1>
+    <form id="updateForm">
+        <label for="token">GitHub Personal Access Token:</label>
+        <input type="text" id="token" required><br><br>
+
+        <label for="owner">Repository Owner:</label>
+        <input type="text" id="owner" required><br><br>
+
+        <label for="repo">Repository Name:</label>
+        <input type="text" id="repo" required><br><br>
+
+        <label for="filePath">File Path:</label>
+        <input type="text" id="filePath" required><br><br>
+
+        <label for="content">New File Content:</label><br>
+        <textarea id="content" rows="5" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Update File">
+    </form>
+</body>
+</html>
